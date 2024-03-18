@@ -1,1 +1,12 @@
-
+func Digitize(n int) []int {
+	// your code here
+	var b []int
+	if n == 0 {
+		b = append(b, 0)
+	}
+	for i := 0; n > 0; i++ {
+		b = append(b, n%10)
+		n = n / 10
+	}
+	return b
+}
