@@ -13,8 +13,8 @@ func main() {
 	i := Global + AnotherGlobal
 	fmt.Println("Инициализация пустой переменной j: ", j)
 	j = Global
-	// math.Abs() требует параметр float64
-	//соответсвенно мы приводим тип
+	// math.Abs() требует параметр float64 
+	// соответсвенно мы приводим тип
 	k := math.Abs(float64(AnotherGlobal))
 	fmt.Printf("Global = %d, i = %d j = %d k = %.2f,\n", Global, i, j, k)
 	//conv("молодой падаван", 50)
