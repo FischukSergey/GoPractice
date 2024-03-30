@@ -6,6 +6,7 @@ import (
 	"unicode"
 )
 
+//Проверка гита
 // func main() {
 //fmt.Printf("Фраза наоборот %v\n", ReverseWords("This is 12345678"))
 //fmt.Printf("Средний символ %s\n", GetMiddle("а"))
