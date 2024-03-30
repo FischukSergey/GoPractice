@@ -7,6 +7,7 @@ import (
 )
 
 //Проверка гита
+// Проверка гита из VSCode
 // func main() {
 //fmt.Printf("Фраза наоборот %v\n", ReverseWords("This is 12345678"))
 //fmt.Printf("Средний символ %s\n", GetMiddle("а"))
