@@ -22,6 +22,8 @@ func main() {
 	fmt.Println(newB)
 
 	fmt.Println(ToAlternatingCase("Проверка ТЕКСТА 1234"))
+	s:="ПРОВЕРКА"
+	fmt.Println(MyString(s).IsUpperCase())
 }
 
 func Digitize(n int) []int {
