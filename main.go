@@ -22,7 +22,7 @@ func main() {
 	fmt.Println(newB)
 
 	fmt.Println(ToAlternatingCase("Проверка ТЕКСТА 1234"))
-	s:="ПРОВЕРКА"
+	s:="ПРОВЕРКА TEST"
 	fmt.Println(MyString(s).IsUpperCase())
 }
 
