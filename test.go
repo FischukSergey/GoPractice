@@ -6,12 +6,12 @@ import (
 	"unicode"
 )
 
-func main() {
+// func main() {
 	//fmt.Printf("Фраза наоборот %v\n", ReverseWords("This is 12345678"))
 	//fmt.Printf("Средний символ %s\n", GetMiddle("а"))
 	//fmt.Println(MyString("GGGHHHH").IsUpperCase())
-	fmt.Println(ToAlternatingCase("Проверка ТЕКСТА 1234"))
-}
+	// fmt.Println(ToAlternatingCase("Проверка ТЕКСТА 1234"))
+// }
 
 // функция меняет строчные буквы на заглавные
 func ToAlternatingCase(str string) string {

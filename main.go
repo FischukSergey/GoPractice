@@ -20,6 +20,8 @@ func main() {
 	//conv("молодой падаван", 50)
 	newB := Digitize(100)
 	fmt.Println(newB)
+
+	fmt.Println(ToAlternatingCase("Проверка ТЕКСТА 1234"))
 }
 
 func Digitize(n int) []int {
