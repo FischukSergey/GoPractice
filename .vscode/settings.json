@@ -1,4 +1,20 @@
 {
     "go.gopath": "//Users/sergeymac/go",
-    "go.goroot": "/Users/sergeymac/sdk/go1.22.0"
+    "go.goroot": "/Users/sergeymac/sdk/go1.22.0",
+    "window.zoomLevel": 1, //зум экрана
+    "editor.tabSize": 2, //количество пробелов в табе
+    //перенос строки, если она не помещается на экране
+    "editor.wordWrap": "on",
+    "editor.fontSize": 14,
+    "editor.fontFamily":"Menlo, Monaco, 'Courier New', monospace",
+    //format
+    "editor.formatOnSave": true, //автоформатирование
+    "editor.formatOnPaste": true, // автоформат по команде комманд+s
+    "editor.quickSuggestionsDelay": 2, //задержка в с вывода подсказки
+    "workbench.activityBar.location": "top", //перенос иконок с левой стороны вверх
+    "workbench.colorTheme": "Bearded Theme HC Minuit",
+
+    "terminal.integrated.fontSize": 14,
+    "cSpell.language": "en,ru", //языки проверки правописания
+    "cSpell.enabled": true, //проверка правописания
 }

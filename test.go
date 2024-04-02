@@ -111,3 +111,22 @@ func DigPow(n, p int) int {
 	//   fmt.Println(sum, result)
 	return result
 */
+// Функция замены всех символов в строке, в данном случае, всех гласных
+// func Disemvowel(comment string) string {
+//   return regexp.MustCompile(`(?i)[aeiou]`).ReplaceAllString(comment, "")
+// }
+// или такой вариант
+// func Disemvowel(comment string) string {
+// var replacer = strings.NewReplacer(
+// 		"a", "",
+// 		"e", "",
+// 		"i", "",
+// 		"o", "",
+// 		"u", "",
+// 		"A", "",
+// 		"E", "",
+// 		"I", "",
+// 		"O", "",
+// 		"U", "",
+// 	)
+// 	return replacer.Replace(comment)
