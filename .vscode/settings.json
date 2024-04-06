@@ -6,15 +6,19 @@
     //перенос строки, если она не помещается на экране
     "editor.wordWrap": "on",
     "editor.fontSize": 14,
-    "editor.fontFamily":"Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "'JetBrains Mono','FiraCode Nerd Font', Monaco, 'Courier New', monospace",
+    "editor.fontWeight": 100,
     //format
     "editor.formatOnSave": true, //автоформатирование
     "editor.formatOnPaste": true, // автоформат по команде комманд+s
     "editor.quickSuggestionsDelay": 2, //задержка в с вывода подсказки
     "workbench.activityBar.location": "top", //перенос иконок с левой стороны вверх
     "workbench.colorTheme": "Bearded Theme HC Minuit",
-
     "terminal.integrated.fontSize": 14,
     "cSpell.language": "en,ru", //языки проверки правописания
-    "cSpell.enabled": true, //проверка правописания
+    "cSpell.enabled": true,
+    "cSpell.ignoreWords": [
+        "achiev",
+        "kilocal"
+    ], //проверка правописания
 }
