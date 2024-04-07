@@ -29,7 +29,7 @@ var (
 func parsePackage(data string) (t time.Time, steps int, ok bool) {
 	// 1. Разделите строку на две части по запятой в слайс ds
 	ds := strings.Split(data, ",")
-	// 2. Проверьте, чтобы ds состоял из двух элементов
+	// 2. Проверьте, чтобы ds состоял из двух элементов иначе выход
 	if len(ds) != 2 {
 		return
 	}
