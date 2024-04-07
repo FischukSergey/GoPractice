@@ -6,8 +6,6 @@ import (
 	"unicode"
 )
 
-//Проверка гита
-// Проверка гита из VSCode
 // func main() {
 //fmt.Printf("Фраза наоборот %v\n", ReverseWords("This is 12345678"))
 //fmt.Printf("Средний символ %s\n", GetMiddle("а"))
@@ -53,7 +51,7 @@ func Digit(n int) []int {
 	return b
 }
 */
-// функция выбирает из строки 1 симовл посредине если длина строки нечетная и 2 символа если четная
+// функция выбирает из строки 1 символ посредине если длина строки нечетная и 2 символа если четная
 func GetMiddle(s string) string {
 	simbol := []rune(s)
 	chet := len(simbol) % 2 //проверка на чет нечет
@@ -86,7 +84,7 @@ func DigPow(n, p int) int {
 	var sum float64=0
 	result:=0
 	//   var sliceDR []int // первый способ через создание среза из цифр в обратном порядке путем получения
-	//   for i:=0; n>0; i++ {  // остатка от деления на 10, а зетем реверс среза
+	//   for i:=0; n>0; i++ {  // остатка от деления на 10, а затем реверс среза
 	//     sliceD=append(sliceD, n%10)
 	//     n=n/10
 	//   }
@@ -130,3 +128,45 @@ func DigPow(n, p int) int {
 // 		"U", "",
 // 	)
 // 	return replacer.Replace(comment)
+
+/* ТАБЛИЦА УМНОЖЕНИЯ
+func MultiplicationTable(size int) [][]int {
+  result:=make([][]int,size) //инициализируем строку в двумерном срезе
+  for i := range result {    //инициализируем колонку в виде среза для каждого значения в строке
+    result[i] = make([]int, size) //получается двумерный массив
+}
+	for row:=range result {
+		for column:=range result[row] {
+			result[row][column]=(column+1)*(row+1)
+		}
+	}
+  return result
+}
+
+НУ ИЛИ ТАК
+func MultiplicationTable(size int) [][]int {
+  res := make([][]int, size)
+  for i := 0 ; i < size ; i ++ {
+    for x := 1 ; x < size + 1 ; x ++ {
+      res[i] = append(res[i], (i + 1) * x)
+      }}
+  return res
+
+}
+*/
+
+
+func Digitize(n int) []int {
+	// your code here
+	var b []int
+	if n == 0 {
+		b = append(b, 0)
+	}
+	for i := 0; n > 0; i++ {
+		b = append(b, n%10)
+		n = n / 10
+	}
+	return b
+}
+
+
