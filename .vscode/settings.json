@@ -1,7 +1,7 @@
 {
-    "go.gopath": "//Users/sergeymac/go",
+    // "go.gopath": "//Users/sergeymac/go",
     "go.goroot": "/Users/sergeymac/sdk/go1.22.0",
-    "window.zoomLevel": 1, //зум экрана
+    "window.zoomLevel": 0.5, //зум экрана
     "editor.tabSize": 2, //количество пробелов в табе
     //перенос строки, если она не помещается на экране
     "editor.wordWrap": "on",
@@ -20,5 +20,8 @@
     "cSpell.ignoreWords": [
         "achiev",
         "kilocal"
-    ], //проверка правописания
+    ],
+  
+
+    //проверка правописания
 }

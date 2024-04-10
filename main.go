@@ -6,6 +6,9 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	"testf/mytest"
+	
 )
 
 const (
@@ -194,4 +197,5 @@ func main() {
 	for _, v := range input {
 		storage = AcceptPackage(today+" "+v, storage)
 	}
+	// fmt.Println(testf/mytest.Digitize(157))
 }
