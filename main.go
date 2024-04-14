@@ -7,8 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"testf/mytest"
-	
+	mytest "gopractice/testf"
 )
 
 const (
@@ -197,5 +196,5 @@ func main() {
 	for _, v := range input {
 		storage = AcceptPackage(today+" "+v, storage)
 	}
-	// fmt.Println(testf/mytest.Digitize(157))
+	fmt.Println(mytest.Digitize(157))
 }

@@ -1,5 +1,5 @@
 {
-    // "go.gopath": "//Users/sergeymac/go",
+    "go.gopath": "//Users/sergeymac/go",
     "go.goroot": "/Users/sergeymac/sdk/go1.22.0",
     "window.zoomLevel": 0.5, //зум экрана
     "editor.tabSize": 2, //количество пробелов в табе
